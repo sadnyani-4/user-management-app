@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useLocation, useNavigate } from 'react-router-dom';
-import './UserEdit.css'; // Import the CSS file for styling
+import './UserEdit.css';
 
 const UserEdit = () => {
     const [firstName, setFirstName] = useState('');
@@ -15,7 +15,7 @@ const UserEdit = () => {
         if (user) {
             setFirstName(user.first_name);
             setLastName(user.last_name);
-            setEmail(`user${user.id}@example.com`); // Simulating email
+            setEmail(`user${user.id}@example.com`);
         }
     }, [user]);
 
@@ -27,7 +27,7 @@ const UserEdit = () => {
                 last_name: lastName,
                 email,
             });
-            navigate('/users', { state: { user: updatedUser.data }}); // Pass the updated user data back
+            navigate('/users', { state: { user: updatedUser.data }});
         } catch (err) {
             console.error(err);
         }
