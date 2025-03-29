@@ -40,8 +40,8 @@
 
 /* Style for login button */
 .login-button {
-    background-color: #55356E; /* Purple Pleasure */
-    color: #FFFFFF; /* White text */
+    background-color: #55356E !important; /* Purple Pleasure */
+    color: #FFFFFF !important; /* White text */
     width: 100%; /* Full width */
     border: none; /* Remove default border */
     border-radius: 10px; /* Rounded corners */
