@@ -13,7 +13,7 @@ A React application that integrates with the Reqres API to perform basic user ma
 - [License](#license)
 
 ## Demo
-[Live Demo Link](#) (Make sure to replace this with a link to your hosted application if available)
+[Live Demo Link](https://sadnyani-4.github.io/user-management-app)
 
 ## Installation
 
