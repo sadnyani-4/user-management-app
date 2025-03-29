@@ -1,54 +1,52 @@
-/* src/UserEdit.css */
-
 .user-edit-container {
-    display: flex; /* Use flexbox for centering */
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
-    min-height: 100vh; /* Full height of the viewport */
-    padding: 20px; /* Padding for better spacing */
-    background-color: #E9E2F3; /* Lavender Love Background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #E9E2F3;
 }
 
 .user-edit-title {
-    color: #55356E; /* Purple Pleasure for title */
-    font-family: 'Poppins', sans-serif; /* Beautiful font family */
-    margin-bottom: 20px; /* Space below the title */
+    color: #55356E;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
 }
 
 .user-edit-form {
-    width: 100%; /* Full width inside the container */
-    max-width: 400px; /* Limit the form width */
-    background-color: #FFFFFF; /* White background for form */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    padding: 20px; /* Padding inside the form */
+    width: 100%;
+    max-width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
 .user-edit-input {
-    border: 1px solid #D6D6D6; /* Light gray border */
-    border-radius: 10px; /* Rounded corners */
-    padding: 10px; /* Padding inside the input */
-    margin-bottom: 15px; /* Space between inputs */
-    width: 100%; /* Full width */
+    border: 1px solid #D6D6D6;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
 }
 
 .user-edit-input:focus {
-    border-color: #55356E; /* Change border color on focus */
-    box-shadow: 0 0 5px rgba(85, 53, 110, 0.5); /* Glow effect */
+    border-color: #55356E;
+    box-shadow: 0 0 5px rgba(85, 53, 110, 0.5);
 }
 
 .user-edit-button {
-    background-color: #55356E; /* Purple Pleasure */
-    color: #FFFFFF; /* White text */
-    width: 100%; /* Full width button */
-    border: none; /* Remove default border */
-    border-radius: 10px; /* Rounded corners */
-    padding: 10px; /* Padding inside the button */
-    cursor: pointer; /* Hand cursor */
-    transition: background-color 0.3s; /* Smooth transition */
+    background-color: #55356E;
+    color: #FFFFFF;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .user-edit-button:hover {
-    background-color: #45647D; /* Darker shade for hover effect */
+    background-color: #45647D;
 }
