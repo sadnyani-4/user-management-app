@@ -1,0 +1,61 @@
+/* src/Login.css */
+
+.login-container {
+    display: flex; /* Use flex to center */
+    flex-direction: column; /* Lay out children in a column */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    min-height: 100vh; /* Full height of the viewport */
+    padding: 20px; /* Padding for better spacing */
+    background-color: #E9E2F3; /* Lavender Love Background */
+}
+
+.login-title {
+    color: #55356E; /* Purple Pleasure for the title */
+    font-family: 'Poppins', sans-serif; /* Beautiful family */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.login-form {
+    width: 100%; /* Full width inside the container */
+    max-width: 400px; /* Limit the form width */
+    background-color: #FFFFFF; /* White background for form */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Padding inside the form */
+}
+
+.input-field {
+    border: 1px solid #D6D6D6; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding inside the input */
+    margin-bottom: 15px; /* Space between inputs */
+    width: 100%; /* Full width */
+}
+
+.input-field:focus {
+    border-color: #55356E; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(85, 53, 110, 0.5); /* Glow effect */
+}
+
+/* Style for login button */
+.login-button {
+    background-color: #55356E; /* Purple Pleasure */
+    color: #FFFFFF; /* White text */
+    width: 100%; /* Full width */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding inside the button */
+    cursor: pointer; /* Hand cursor */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.login-button:hover {
+    background-color: #45647D; /* Darker shade for hover */
+}
+
+/* Styling for error message */
+.alert {
+    color: #e3342f; /* Bootstrap danger color */
+    margin-bottom: 15px; /* Merging margin for spacing */
+}
