@@ -1,93 +1,89 @@
-/* src/App.css */
-
-/* src/App.css */
-
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #E9E2F3; /* Lavender Love as the background */
-  color: #55356E; /* Purple Pleasure for text color */
+  background-color: #E9E2F3;
+  color: #55356E;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  color: #55356E; /* Purple Pleasure */
+  color: #55356E;
   font-weight: bold;
-  text-align: center; /* Center heading */
+  text-align: center;
 }
 
 .container {
-  max-width: 1200px; /* Align content in center */
-  padding: 20px; /* Add some padding for content separation */
+  max-width: 1200px;
+  padding: 20px;
   padding-top: 0px;
 }
 
 .card {
-  border: none; /* Remove default card border */
-  border-radius: 15px; /* Round the corners */
+  border: none;
+  border-radius: 15px;
   transition: transform 0.2s;
 }
 
 .card:hover {
-  transform: scale(1.05); /* Scale effect on hover */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Increased shadow on hover */
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 .card-img-wrapper {
   display: flex;
   justify-content: center; /* Center image */
   align-items: center; /* Center vertically */
-  height: fit-content; /* Maintain natural height for images */
-  padding: 15px; /* Added padding for better spacing */
-  background-color: #D6F5FF; /* Popping Blue */
-  border-radius: 15px 15px 0 0; /* Round top corners of the image wrapper */
+  height: fit-content;
+  padding: 15px;
+  background-color: #D6F5FF;
+  border-radius: 15px 15px 0 0;
 }
 
 .card-img-top {
   width: 100px; /* Fixed width for circular images */
   height: 100px; /* Fixed height for circular images */
-  border-radius: 50%; /* Circular shape */
+  border-radius: 50%;
   object-fit: cover; /* Maintain aspect ratio while filling */
-  border: 3px solid #55356E; /* Border around the avatar for contrast */
+  border: 3px solid #55356E;
 }
 
 .card-body {
   z-index: 1;
-  background-color: #ffffff; /* White background for card body */
-  border-radius: 0 0 15px 15px; /* Rounded bottom corners */
-  padding: 20px; /* Added padding for card body */
+  background-color: #ffffff;
+  border-radius: 0 0 15px 15px;
+  padding: 20px;
 }
 
 .card-title {
-  font-size: 1.5rem; /* Increase font size */
-  margin-bottom: 15px; /* Space out title from buttons */
-  color: #55356E; /* Purple Pleasure for the title */
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #55356E;
 }
 
 .btn {
-  border-radius: 25px; /* Rounded buttons */
+  border-radius: 25px;
   font-weight: 500;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .btn-primary {
-  background-color: #76A787; /* Sweet Green */
-  color: #ffffff; /* White text */
+  background-color: #76A787;
+  color: #ffffff;
 }
 
 .btn-primary:hover {
-  background-color: #638b6e; /* Darker shade of Sweet Green */
+  background-color: #638b6e;
 }
 
 .btn-danger {
-  background-color: #e3342f; /* Danger color */
-  color: #ffffff; /* White text */
+  background-color: #e3342f;
+  color: #ffffff;
 }
 
 .btn-danger:hover {
-  background-color: #c0242e; /* Darker shade on hover */
+  background-color: #c0242e;
 }
 
 .d-flex {
-  margin-top: 1rem; /* Space between pagination and user cards */
+  margin-top: 1rem;
 }
