@@ -35,7 +35,7 @@ To set up the project locally, follow these steps:
     ```bash
     npm start
     ```
-    This will start the development server, and you can access the application at `http://localhost:3000 in your web browser.
+    This will start the development server, and you can access the application at `http://localhost:3000` in your web browser.
     Alternatively, you can use `npm run build` to create a production build.
 
 4. **Log in** using the following credentials:
