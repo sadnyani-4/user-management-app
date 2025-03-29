@@ -1,57 +1,54 @@
-/* src/Login.css */
-
 .login-container {
-    display: flex; /* Use flex to center */
-    flex-direction: column; /* Lay out children in a column */
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
-    min-height: 100vh; /* Full height of the viewport */
-    padding: 20px; /* Padding for better spacing */
-    background-color: #E9E2F3; /* Lavender Love Background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #E9E2F3;
 }
 
 .login-title {
-    color: #55356E; /* Purple Pleasure for the title */
-    font-family: 'Poppins', sans-serif; /* Beautiful family */
-    margin-bottom: 20px; /* Space below the title */
+    color: #55356E;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
 }
 
 .login-form {
-    width: 100%; /* Full width inside the container */
-    max-width: 400px; /* Limit the form width */
-    background-color: #FFFFFF; /* White background for form */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    padding: 20px; /* Padding inside the form */
+    width: 100%;
+    max-width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
 .input-field {
-    border: 1px solid #D6D6D6; /* Light gray border */
-    border-radius: 10px; /* Rounded corners */
-    padding: 10px; /* Padding inside the input */
-    margin-bottom: 15px; /* Space between inputs */
-    width: 100%; /* Full width */
+    border: 1px solid #D6D6D6;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
 }
 
 .input-field:focus {
-    border-color: #55356E; /* Change border color on focus */
-    box-shadow: 0 0 5px rgba(85, 53, 110, 0.5); /* Glow effect */
+    border-color: #55356E;
+    box-shadow: 0 0 5px rgba(85, 53, 110, 0.5);
 }
 
-/* Style for login button */
 .login-button {
-    background-color: #55356E !important; /* Purple Pleasure */
-    color: #FFFFFF !important; /* White text */
-    width: 100%; /* Full width */
-    border: none; /* Remove default border */
-    border-radius: 10px; /* Rounded corners */
-    padding: 10px; /* Padding inside the button */
-    cursor: pointer; /* Hand cursor */
-    transition: background-color 0.3s; /* Smooth transition */
+    background-color: #55356E !important;
+    color: #FFFFFF !important;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .login-button:hover {
-    background-color: #45647D; /* Darker shade for hover */
+    background-color: #45647D;
 }
 
 /* Styling for error message */
